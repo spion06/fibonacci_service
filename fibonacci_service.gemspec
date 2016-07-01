@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Kyle McGovern"]
   spec.email         = ["kyle.mcgovern@cerner.com"]
 
-  spec.summary       = %q{}
-  spec.description   = %q{}
-  spec.homepage      = ""
+  spec.summary       = %q{Sinatra rest service that calcualtes a fibonacci sequence}
+  spec.description   = %q{Sinatra rest service that calcualtes a fibonacci sequence}
+  spec.homepage      = "https://github.com/spion06/fibonacci_service"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
   # delete this section to allow pushing this gem to any host.
@@ -27,7 +27,7 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.11"
   spec.add_development_dependency "rake", "~> 10.0"
-  spec.add_development_dependency "rack-test"
+  spec.add_development_dependency "rack-test", "~> 0.6"
   spec.add_development_dependency "rspec", "~> 3.0"
-  spec.add_runtime_dependency "sinatra"
+  spec.add_runtime_dependency "sinatra", "~> 1.4"
 end
