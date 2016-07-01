@@ -36,7 +36,11 @@ $ curl http://localhost:8080/fibonacci/10
 
 
 ## Testing
-
+### Full test with docker
+```
+bundle exec rake docker:test
+```
+### Unit tests
 ```
 bundle exec rspec
 ```
